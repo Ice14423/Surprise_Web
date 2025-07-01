@@ -22,7 +22,7 @@ img{
  display: flex;
  justify-content: center; /* แนวนอน */
  align-items: center;    
- 
+ position: relative;
 }
 button{
     margin: 0 60px;
@@ -38,6 +38,7 @@ button{
 #btn2{
     background-color: red;
     border: none;
+    position: absolute; /* ทำให้ย้ายได้ภายใน .button */
 }
 h1{
     text-align: center;
@@ -50,6 +51,4 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
 }
