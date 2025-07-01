@@ -23,6 +23,9 @@ img{
  justify-content: center; /* แนวนอน */
  align-items: center;    
  position: relative;
+ width: auto;
+ 
+ 
 }
 button{
     margin: 0 60px;
@@ -34,11 +37,20 @@ button{
 #btn1{
     background-color: green;
     border: none;
+    height: 40px;
+    width: 60px;
+    position: relative;
+    
+    /* ให้อยู่บน */
 }
 #btn2{
     background-color: red;
     border: none;
-    position: absolute; /* ทำให้ย้ายได้ภายใน .button */
+    position: absolute;
+    left: 52%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+     /* ทำให้ย้ายได้ภายใน .button */
 }
 h1{
     text-align: center;
